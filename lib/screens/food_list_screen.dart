@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/food_item.dart';
 import '../services/database_helper.dart';
-import 'meal_plan_screen.dart'; // Make sure this screen exists
+import 'meal_plan_screen.dart'; 
 
 class FoodListScreen extends StatefulWidget {
   const FoodListScreen({Key? key}) : super(key: key);
