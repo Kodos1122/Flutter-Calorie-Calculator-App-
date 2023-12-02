@@ -1,4 +1,4 @@
-# firstly
+# Flutter Calorie Calculator App
 
 A new Flutter project.
 
