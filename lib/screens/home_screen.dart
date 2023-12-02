@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'add_food_screen.dart';
 import 'food_list_screen.dart';
-import 'meal_plan_screen.dart'; // Ensure you have this screen defined
-
+import 'meal_plan_screen.dart'; 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
 
@@ -90,7 +89,7 @@ class HomeScreenState extends State<HomeScreen> {
           context,
           MaterialPageRoute(
             builder: (context) => MealPlanScreen(
-              selectedItems: const [], // Replace with actual selected items if applicable
+              selectedItems: const [], 
               selectedDate: _selectedDate!,
               targetCalories: targetCalories,
             ),
